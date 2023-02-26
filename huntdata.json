@@ -1,7 +1,7 @@
 {
     "info": [
     {
-        "name": "Wolf", "lv1HP": 20,
+        "name": "Sói", "lv1HP": 20,
         "lv1patk": 5, "lv1pdef": 1,
         "lv1matk": 0, "lv1mdef": 1,
         "growHP": 5,
