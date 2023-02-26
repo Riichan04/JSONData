@@ -1,0 +1,19 @@
+{
+    "user":{
+        "lv1HP": 100,
+        "lv1patk": 25, "lv1pdef": 10,
+        "lv1matk": 15, "lv1mdef": 10,
+        "growHP": 10,
+        "growpatk": 5, "growpdef": 3,
+        "growmatk": 3, "growmdef": 3
+    },
+    "skill":[
+        {"name":"Chém", "description":"Gây 100% sát thương vật lý", "pdmgrate": 1, "mdmgrate": 0, "effname": null},
+        {"name":"Thổi Lửa", "description":"Gây 100% sát thương phép thuật. Làm mục tiêu bị [Bỏng].", "pdmgrate": 0, "mdmgrate": 1, "effname":"Bỏng"},
+        {"name":"Mở Quạt", "description":"Xoay kiếm nhanh đến mức gọi ra gió, gây 80% sát thương vật lý và kích hoạt [Kiếm Vũ]", "pdmgrate":0.8, "mdmgrate":0, "effname":"Chém Thêm"}
+    ],
+    "effect":[
+        {"name":"Bỏng", "description":"Giảm 20% công vật lý của kẻ địch", "value": 0.2},
+        {"name":"Kiếm Vũ", "description":"Gây thêm sát thương vật lý dựa trên lv người dùng", "value": 5}
+    ]
+}

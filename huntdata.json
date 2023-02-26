@@ -1,0 +1,54 @@
+{
+    "info": [
+    {
+        "name": "Sói", "lv1HP": 20,
+        "lv1patk": 5, "lv1pdef": 1,
+        "lv1matk": 0, "lv1mdef": 1,
+        "growHP": 5,
+        "growpatk": 2, "growpdef": 1,
+        "growmatk": 0.5, "growmdef": 1
+    },
+    {
+        "name": "Hổ", "lv1HP": 30,
+        "lv1patk": 6, "lv1pdef": 1,
+        "lv1matk": 0, "lv1mdef": 1,
+        "growHP": 6,
+        "growpatk": 2.25, "growpdef": 0.5,
+        "growmatk": 0.25, "growmdef": 1
+    },
+    {
+        "name": "Sư Tử", "lv1HP": 30,
+        "lv1patk": 5, "lv1pdef": 1,
+        "lv1matk": 2, "lv1mdef": 1,
+        "growHP": 6,
+        "growpatk": 2, "growpdef": 1,
+        "growmatk": 1, "growmdef": 0.5
+    },
+    {
+        "name": "Gấu", "lv1HP": 50,
+        "lv1patk": 3, "lv1pdef": 3,
+        "lv1matk": 0, "lv1mdef": 3,
+        "growHP": 6,
+        "growpatk": 2.5, "growpdef": 2,
+        "growmatk": 0, "growmdef": 1
+    },
+    {
+        "name": "Nhện", "lv1HP": 15,
+        "lv1patk": 0, "lv1pdef": 0.5,
+        "lv1matk": 5, "lv1mdef": 0.5,
+        "growHP": 2,
+        "growpatk": 0, "growpdef": 0.25,
+        "growmatk": 1.5, "growmdef": 0.25
+    }],
+    "skill": [
+        {"name": "Cào Xé", "description": "Gây 100% sát thương vật lý. Làm mục tiêu bị [Chảy Máu].", "pdmgrate": 1, "mdmgrate": 0, "effname":"Chảy Máu"},
+        {"name": "Vồ Tới", "description": "Gây 110% sát thương vật lý.", "pdmgrate": 1.1, "mdmgrate": 0, "effname":null},
+        {"name": "Gầm Rú", "description": "Giảm mục tiêu 10% tấn công rồi gây 70% sát thương vật lý và 100% sát thương phép thuật", "pdmgrate": 0.7, "mdmgrate": 1, "effname":null},
+        {"name": "Tát", "description": "Gây 150% sát thương vật lý.", "pdmgrate": 1.5, "mdmgrate": 0, "effname":null},
+        {"name": "Phun Độc", "description": "Gây 100% sát thương phép thuật. Làn mục tiêu bị [Trúng Độc]", "pdmgrate": 0, "mdmgrate":1, "effname":"Trúng Độc"}
+    ],
+    "debuff": [
+        {"name":"Chảy Máu", "description": "Sau khi hành động, bị mất HP dựa trên HP hiện có", "value":0.05},
+        {"name":"Trúng Độc", "description":"Sau khi hành động, bị mất HP dựa trên công phép của người gây ra", "value":0.3}
+    ]
+}
